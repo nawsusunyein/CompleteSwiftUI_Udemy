@@ -15,6 +15,7 @@
 		6A637D2F291439B500759CFD /* TestImageViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D2E291439B500759CFD /* TestImageViewThree.swift */; };
 		6A637D3229143E3D00759CFD /* TestSFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D3129143E3D00759CFD /* TestSFSymbols.swift */; };
 		6A637D342914417E00759CFD /* TestSFSymbolsTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D332914417E00759CFD /* TestSFSymbolsTwo.swift */; };
+		6A637D37291442E500759CFD /* TestEventModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D36291442E500759CFD /* TestEventModifiers.swift */; };
 		6A8B290F291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B290E291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift */; };
 		6A8B2911291255B100520BDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B2910291255B100520BDE /* ContentView.swift */; };
 		6A8B2913291255B400520BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8B2912291255B400520BDE /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		6A8B2920291255B500520BDE /* CompleteSwiftUI_UdemyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B291F291255B500520BDE /* CompleteSwiftUI_UdemyTests.swift */; };
 		6A8B292A291255B500520BDE /* CompleteSwiftUI_UdemyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B2929291255B500520BDE /* CompleteSwiftUI_UdemyUITests.swift */; };
 		6A8B292C291255B500520BDE /* CompleteSwiftUI_UdemyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B292B291255B500520BDE /* CompleteSwiftUI_UdemyUITestsLaunchTests.swift */; };
+		6AA47BD9291EB7AF008574EE /* CustomModifersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA47BD8291EB7AF008574EE /* CustomModifersTest.swift */; };
 		6AEAF6FE29139CE700E0A9A2 /* TestModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAF6FD29139CE700E0A9A2 /* TestModifierView.swift */; };
 		6AEAF7002913B59400E0A9A2 /* TestModifierViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAF6FF2913B59400E0A9A2 /* TestModifierViewTwo.swift */; };
 		6AEAF7032913B75800E0A9A2 /* Shalimar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AEAF7022913B75800E0A9A2 /* Shalimar-Regular.ttf */; };
@@ -54,6 +56,7 @@
 		6A637D2E291439B500759CFD /* TestImageViewThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageViewThree.swift; sourceTree = "<group>"; };
 		6A637D3129143E3D00759CFD /* TestSFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSFSymbols.swift; sourceTree = "<group>"; };
 		6A637D332914417E00759CFD /* TestSFSymbolsTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSFSymbolsTwo.swift; sourceTree = "<group>"; };
+		6A637D36291442E500759CFD /* TestEventModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEventModifiers.swift; sourceTree = "<group>"; };
 		6A8B290B291255B100520BDE /* CompleteSwiftUI_Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompleteSwiftUI_Udemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8B290E291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSwiftUI_UdemyApp.swift; sourceTree = "<group>"; };
 		6A8B2910291255B100520BDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 		6A8B2925291255B500520BDE /* CompleteSwiftUI_UdemyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompleteSwiftUI_UdemyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8B2929291255B500520BDE /* CompleteSwiftUI_UdemyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSwiftUI_UdemyUITests.swift; sourceTree = "<group>"; };
 		6A8B292B291255B500520BDE /* CompleteSwiftUI_UdemyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSwiftUI_UdemyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AA47BD8291EB7AF008574EE /* CustomModifersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifersTest.swift; sourceTree = "<group>"; };
 		6AEAF6FD29139CE700E0A9A2 /* TestModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifierView.swift; sourceTree = "<group>"; };
 		6AEAF6FF2913B59400E0A9A2 /* TestModifierViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifierViewTwo.swift; sourceTree = "<group>"; };
 		6AEAF7022913B75800E0A9A2 /* Shalimar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shalimar-Regular.ttf"; sourceTree = "<group>"; };
@@ -132,6 +136,14 @@
 			path = SFSymbols;
 			sourceTree = "<group>";
 		};
+		6A637D35291442D300759CFD /* EventModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				6A637D36291442E500759CFD /* TestEventModifiers.swift */,
+			);
+			path = EventModifiers;
+			sourceTree = "<group>";
+		};
 		6A8B2902291255B100520BDE = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +167,8 @@
 		6A8B290D291255B100520BDE /* CompleteSwiftUI_Udemy */ = {
 			isa = PBXGroup;
 			children = (
+				6AA47BD7291EB795008574EE /* CustomModifiers */,
+				6A637D35291442D300759CFD /* EventModifiers */,
 				6A637D3029143E2C00759CFD /* SFSymbols */,
 				6A637D292914338500759CFD /* ImageView */,
 				6A637D2429142F7800759CFD /* Materials */,
@@ -193,6 +207,14 @@
 				6A8B292B291255B500520BDE /* CompleteSwiftUI_UdemyUITestsLaunchTests.swift */,
 			);
 			path = CompleteSwiftUI_UdemyUITests;
+			sourceTree = "<group>";
+		};
+		6AA47BD7291EB795008574EE /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				6AA47BD8291EB7AF008574EE /* CustomModifersTest.swift */,
+			);
+			path = CustomModifiers;
 			sourceTree = "<group>";
 		};
 		6AEAF7012913B74400E0A9A2 /* CustomFont */ = {
@@ -347,6 +369,7 @@
 				6A637D3229143E3D00759CFD /* TestSFSymbols.swift in Sources */,
 				6A637D342914417E00759CFD /* TestSFSymbolsTwo.swift in Sources */,
 				6A637D2629142F8900759CFD /* TestMaterials.swift in Sources */,
+				6AA47BD9291EB7AF008574EE /* CustomModifersTest.swift in Sources */,
 				6A637D2D2914367100759CFD /* TestImageViewTwo.swift in Sources */,
 				6AEAF7002913B59400E0A9A2 /* TestModifierViewTwo.swift in Sources */,
 				6A8B2911291255B100520BDE /* ContentView.swift in Sources */,
@@ -355,6 +378,7 @@
 				6AEAF6FE29139CE700E0A9A2 /* TestModifierView.swift in Sources */,
 				6A637D2F291439B500759CFD /* TestImageViewThree.swift in Sources */,
 				6AEAF7072913C86A00E0A9A2 /* TestModifierViewThree.swift in Sources */,
+				6A637D37291442E500759CFD /* TestEventModifiers.swift in Sources */,
 				6A637D2B291433AF00759CFD /* TestImageView.swift in Sources */,
 				6A8B290F291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift in Sources */,
 			);

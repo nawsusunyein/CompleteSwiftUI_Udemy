@@ -14,7 +14,9 @@ struct CompleteSwiftUI_UdemyApp: App {
             //ContentView()
            // TestModifierViewTwo()
             //TestModifierViewThree()
-            TestImageViewThree()
+          //  TestImageViewThree()
+            //TestEventModifiers()
+            CustomModifersTest()
         }
     }
 }
