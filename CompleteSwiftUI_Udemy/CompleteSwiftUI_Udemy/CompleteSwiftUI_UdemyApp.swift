@@ -22,7 +22,9 @@ struct CompleteSwiftUI_UdemyApp: App {
            // TestMultiLayoutStacks()
            // SafeAreaTest()
            // SafeAreaTestTwo()
-             PrioritiesTest()
+            // PrioritiesTest()
+           // TestAlignements()
+            TestAlignmentOne()
         }
     }
 }
