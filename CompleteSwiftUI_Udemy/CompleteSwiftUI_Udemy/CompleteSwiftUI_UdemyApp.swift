@@ -19,7 +19,9 @@ struct CompleteSwiftUI_UdemyApp: App {
            // CustomModifersTest()
            // TestLayoutStacks()
            // TestLayoutZStacks()
-            TestMultiLayoutStacks()
+           // TestMultiLayoutStacks()
+           // SafeAreaTest()
+            SafeAreaTestTwo()
         }
     }
 }

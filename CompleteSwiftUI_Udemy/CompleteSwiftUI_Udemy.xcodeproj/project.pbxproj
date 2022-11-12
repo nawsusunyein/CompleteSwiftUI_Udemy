@@ -18,6 +18,8 @@
 		6A637D37291442E500759CFD /* TestEventModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D36291442E500759CFD /* TestEventModifiers.swift */; };
 		6A7C03A0291F506300EFE5EB /* TestLayoutZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C039F291F506300EFE5EB /* TestLayoutZStacks.swift */; };
 		6A7C03A2291F540300EFE5EB /* TestMultiLayoutStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C03A1291F540300EFE5EB /* TestMultiLayoutStacks.swift */; };
+		6A7C03A4291F555800EFE5EB /* SafeAreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C03A3291F555800EFE5EB /* SafeAreaTest.swift */; };
+		6A7C03A7291F589C00EFE5EB /* SafeAreaTestTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C03A6291F589C00EFE5EB /* SafeAreaTestTwo.swift */; };
 		6A8B290F291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B290E291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift */; };
 		6A8B2911291255B100520BDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B2910291255B100520BDE /* ContentView.swift */; };
 		6A8B2913291255B400520BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8B2912291255B400520BDE /* Assets.xcassets */; };
@@ -62,6 +64,8 @@
 		6A637D36291442E500759CFD /* TestEventModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEventModifiers.swift; sourceTree = "<group>"; };
 		6A7C039F291F506300EFE5EB /* TestLayoutZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLayoutZStacks.swift; sourceTree = "<group>"; };
 		6A7C03A1291F540300EFE5EB /* TestMultiLayoutStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiLayoutStacks.swift; sourceTree = "<group>"; };
+		6A7C03A3291F555800EFE5EB /* SafeAreaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaTest.swift; sourceTree = "<group>"; };
+		6A7C03A6291F589C00EFE5EB /* SafeAreaTestTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaTestTwo.swift; sourceTree = "<group>"; };
 		6A8B290B291255B100520BDE /* CompleteSwiftUI_Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompleteSwiftUI_Udemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8B290E291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSwiftUI_UdemyApp.swift; sourceTree = "<group>"; };
 		6A8B2910291255B100520BDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +154,15 @@
 			path = EventModifiers;
 			sourceTree = "<group>";
 		};
+		6A7C03A5291F555E00EFE5EB /* SafeAreaTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A7C03A3291F555800EFE5EB /* SafeAreaTest.swift */,
+				6A7C03A6291F589C00EFE5EB /* SafeAreaTestTwo.swift */,
+			);
+			path = SafeAreaTest;
+			sourceTree = "<group>";
+		};
 		6A8B2902291255B100520BDE = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +186,7 @@
 		6A8B290D291255B100520BDE /* CompleteSwiftUI_Udemy */ = {
 			isa = PBXGroup;
 			children = (
+				6A7C03A5291F555E00EFE5EB /* SafeAreaTest */,
 				6AA47BDA291EBC35008574EE /* LayoutStacks */,
 				6AA47BD7291EB795008574EE /* CustomModifiers */,
 				6A637D35291442D300759CFD /* EventModifiers */,
@@ -389,10 +403,12 @@
 				6A637D2629142F8900759CFD /* TestMaterials.swift in Sources */,
 				6AA47BD9291EB7AF008574EE /* CustomModifersTest.swift in Sources */,
 				6A637D2D2914367100759CFD /* TestImageViewTwo.swift in Sources */,
+				6A7C03A7291F589C00EFE5EB /* SafeAreaTestTwo.swift in Sources */,
 				6AEAF7002913B59400E0A9A2 /* TestModifierViewTwo.swift in Sources */,
 				6A8B2911291255B100520BDE /* ContentView.swift in Sources */,
 				6A637D232914243A00759CFD /* TestColorViewTwo.swift in Sources */,
 				6AA47BDC291EBC4D008574EE /* TestLayoutStacks.swift in Sources */,
+				6A7C03A4291F555800EFE5EB /* SafeAreaTest.swift in Sources */,
 				6A637D2129141DD200759CFD /* TestColorView.swift in Sources */,
 				6AEAF6FE29139CE700E0A9A2 /* TestModifierView.swift in Sources */,
 				6A637D2F291439B500759CFD /* TestImageViewThree.swift in Sources */,
