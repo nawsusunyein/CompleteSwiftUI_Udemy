@@ -16,7 +16,10 @@ struct CompleteSwiftUI_UdemyApp: App {
             //TestModifierViewThree()
           //  TestImageViewThree()
             //TestEventModifiers()
-            CustomModifersTest()
+           // CustomModifersTest()
+           // TestLayoutStacks()
+           // TestLayoutZStacks()
+            TestMultiLayoutStacks()
         }
     }
 }
