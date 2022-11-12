@@ -21,7 +21,8 @@ struct CompleteSwiftUI_UdemyApp: App {
            // TestLayoutZStacks()
            // TestMultiLayoutStacks()
            // SafeAreaTest()
-            SafeAreaTestTwo()
+           // SafeAreaTestTwo()
+             PrioritiesTest()
         }
     }
 }
