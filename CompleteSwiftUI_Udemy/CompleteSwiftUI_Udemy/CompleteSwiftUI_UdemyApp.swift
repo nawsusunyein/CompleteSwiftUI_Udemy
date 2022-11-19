@@ -26,7 +26,10 @@ struct CompleteSwiftUI_UdemyApp: App {
            // TestAlignements()
           //  TestAlignmentOne()
            // GroupTest()
-            GroupTestOne()
+           // GroupTestOne()
+            //GridTest()
+           // GridTestOne()
+            GridTestTwo()
         }
     }
 }
