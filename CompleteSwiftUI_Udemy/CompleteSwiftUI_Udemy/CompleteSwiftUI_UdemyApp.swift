@@ -20,11 +20,11 @@ struct CompleteSwiftUI_UdemyApp: App {
            // TestLayoutStacks()
            // TestLayoutZStacks()
            // TestMultiLayoutStacks()
-           // SafeAreaTest()
+            SafeAreaTest()
            // SafeAreaTestTwo()
             // PrioritiesTest()
            // TestAlignements()
-            TestAlignmentOne()
+          //  TestAlignmentOne()
         }
     }
 }

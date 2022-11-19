@@ -18,7 +18,7 @@ struct SafeAreaTest: View {
                     Text("Hello world")
                     Text("New York")
                 }
-            }.ignoresSafeArea(.all)
+            }.ignoresSafeArea(.keyboard)
             HStack {
                 Image(systemName: "cloud")
                     .font(.system(size : 100))
