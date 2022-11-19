@@ -29,7 +29,8 @@ struct CompleteSwiftUI_UdemyApp: App {
            // GroupTestOne()
             //GridTest()
            // GridTestOne()
-            GridTestTwo()
+            //GridTestTwo()
+            CustomViewTest()
         }
     }
 }

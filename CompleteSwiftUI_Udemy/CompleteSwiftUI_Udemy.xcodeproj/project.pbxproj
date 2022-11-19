@@ -12,6 +12,7 @@
 		6A3F822929291FE6005F4433 /* GridTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F822829291FE6005F4433 /* GridTest.swift */; };
 		6A3F822B292920F6005F4433 /* GridTestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F822A292920F6005F4433 /* GridTestOne.swift */; };
 		6A3F822D29292223005F4433 /* GridTestTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F822C29292223005F4433 /* GridTestTwo.swift */; };
+		6A3F82302929241F005F4433 /* CustomViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F822F2929241F005F4433 /* CustomViewTest.swift */; };
 		6A637D2129141DD200759CFD /* TestColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D2029141DD200759CFD /* TestColorView.swift */; };
 		6A637D232914243A00759CFD /* TestColorViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D222914243A00759CFD /* TestColorViewTwo.swift */; };
 		6A637D2629142F8900759CFD /* TestMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D2529142F8900759CFD /* TestMaterials.swift */; };
@@ -66,6 +67,7 @@
 		6A3F822829291FE6005F4433 /* GridTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTest.swift; sourceTree = "<group>"; };
 		6A3F822A292920F6005F4433 /* GridTestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTestOne.swift; sourceTree = "<group>"; };
 		6A3F822C29292223005F4433 /* GridTestTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTestTwo.swift; sourceTree = "<group>"; };
+		6A3F822F2929241F005F4433 /* CustomViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTest.swift; sourceTree = "<group>"; };
 		6A637D2029141DD200759CFD /* TestColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorView.swift; sourceTree = "<group>"; };
 		6A637D222914243A00759CFD /* TestColorViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorViewTwo.swift; sourceTree = "<group>"; };
 		6A637D2529142F8900759CFD /* TestMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMaterials.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 				6A3F822C29292223005F4433 /* GridTestTwo.swift */,
 			);
 			path = GridTest;
+			sourceTree = "<group>";
+		};
+		6A3F822E2929240C005F4433 /* CustomViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F822F2929241F005F4433 /* CustomViewTest.swift */,
+			);
+			path = CustomViewTest;
 			sourceTree = "<group>";
 		};
 		6A637D1F29141D5C00759CFD /* ColorView */ = {
@@ -238,6 +248,7 @@
 		6A8B290D291255B100520BDE /* CompleteSwiftUI_Udemy */ = {
 			isa = PBXGroup;
 			children = (
+				6A3F822E2929240C005F4433 /* CustomViewTest */,
 				6A3F822729291FD7005F4433 /* GridTest */,
 				6A3F822229291B99005F4433 /* GroupTest */,
 				6A7C03AB291F5E3000EFE5EB /* AlignmentGuides */,
@@ -480,6 +491,7 @@
 				6A7C03A2291F540300EFE5EB /* TestMultiLayoutStacks.swift in Sources */,
 				6A8B290F291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift in Sources */,
 				6A944060291F9CF2002EAA4F /* TestAlignmentOne.swift in Sources */,
+				6A3F82302929241F005F4433 /* CustomViewTest.swift in Sources */,
 				6A3F822429291BAA005F4433 /* GroupTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
