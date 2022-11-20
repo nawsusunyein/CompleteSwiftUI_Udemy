@@ -13,6 +13,7 @@
 		6A3F822B292920F6005F4433 /* GridTestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F822A292920F6005F4433 /* GridTestOne.swift */; };
 		6A3F822D29292223005F4433 /* GridTestTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F822C29292223005F4433 /* GridTestTwo.swift */; };
 		6A3F82302929241F005F4433 /* CustomViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F822F2929241F005F4433 /* CustomViewTest.swift */; };
+		6A3F823329292B6A005F4433 /* CustomLayoutTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F823229292B6A005F4433 /* CustomLayoutTest.swift */; };
 		6A637D2129141DD200759CFD /* TestColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D2029141DD200759CFD /* TestColorView.swift */; };
 		6A637D232914243A00759CFD /* TestColorViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D222914243A00759CFD /* TestColorViewTwo.swift */; };
 		6A637D2629142F8900759CFD /* TestMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D2529142F8900759CFD /* TestMaterials.swift */; };
@@ -68,6 +69,7 @@
 		6A3F822A292920F6005F4433 /* GridTestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTestOne.swift; sourceTree = "<group>"; };
 		6A3F822C29292223005F4433 /* GridTestTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTestTwo.swift; sourceTree = "<group>"; };
 		6A3F822F2929241F005F4433 /* CustomViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTest.swift; sourceTree = "<group>"; };
+		6A3F823229292B6A005F4433 /* CustomLayoutTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutTest.swift; sourceTree = "<group>"; };
 		6A637D2029141DD200759CFD /* TestColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorView.swift; sourceTree = "<group>"; };
 		6A637D222914243A00759CFD /* TestColorViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorViewTwo.swift; sourceTree = "<group>"; };
 		6A637D2529142F8900759CFD /* TestMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMaterials.swift; sourceTree = "<group>"; };
@@ -153,6 +155,14 @@
 				6A3F822F2929241F005F4433 /* CustomViewTest.swift */,
 			);
 			path = CustomViewTest;
+			sourceTree = "<group>";
+		};
+		6A3F823129292B47005F4433 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F823229292B6A005F4433 /* CustomLayoutTest.swift */,
+			);
+			path = CustomLayout;
 			sourceTree = "<group>";
 		};
 		6A637D1F29141D5C00759CFD /* ColorView */ = {
@@ -248,6 +258,7 @@
 		6A8B290D291255B100520BDE /* CompleteSwiftUI_Udemy */ = {
 			isa = PBXGroup;
 			children = (
+				6A3F823129292B47005F4433 /* CustomLayout */,
 				6A3F822E2929240C005F4433 /* CustomViewTest */,
 				6A3F822729291FD7005F4433 /* GridTest */,
 				6A3F822229291B99005F4433 /* GroupTest */,
@@ -466,6 +477,7 @@
 			files = (
 				6A637D3229143E3D00759CFD /* TestSFSymbols.swift in Sources */,
 				6A637D342914417E00759CFD /* TestSFSymbolsTwo.swift in Sources */,
+				6A3F823329292B6A005F4433 /* CustomLayoutTest.swift in Sources */,
 				6A7C03A0291F506300EFE5EB /* TestLayoutZStacks.swift in Sources */,
 				6A637D2629142F8900759CFD /* TestMaterials.swift in Sources */,
 				6A3F822D29292223005F4433 /* GridTestTwo.swift in Sources */,
