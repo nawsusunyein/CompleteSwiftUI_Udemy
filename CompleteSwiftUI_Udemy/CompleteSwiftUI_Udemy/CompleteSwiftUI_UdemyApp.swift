@@ -31,7 +31,10 @@ struct CompleteSwiftUI_UdemyApp: App {
            // GridTestOne()
             //GridTestTwo()
             //CustomViewTest()
-            CustomLayoutTest()
+           // CustomLayoutTest()
+           // GenericViewTest()
+          //  ViewBuilderTest()
+            ViewBuilderTestOne()
         }
     }
 }
