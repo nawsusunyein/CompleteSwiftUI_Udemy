@@ -14,14 +14,20 @@ struct GridTestTwo: View {
                 Image(systemName: "phone")
                     .frame(width: 100, height: 100)
                     .background(Color.blue)
-                Grid (alignment: .leading){
-                    GridRow {
+                GridRow {
+                    VStack {
                         Text("Here, I'm")
-                    }
-                    GridRow {
                         Text("Here, here")
                     }
                 }
+//                Grid (alignment: .leading){
+//                    GridRow {
+//                        Text("Here, I'm")
+//                    }
+//                    GridRow {
+//                        Text("Here, here")
+//                    }
+//                }
             }
         }.font(.title2)
     }

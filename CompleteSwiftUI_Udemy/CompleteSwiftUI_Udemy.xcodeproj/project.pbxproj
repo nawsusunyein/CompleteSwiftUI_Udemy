@@ -24,6 +24,8 @@
 		6A637D342914417E00759CFD /* TestSFSymbolsTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D332914417E00759CFD /* TestSFSymbolsTwo.swift */; };
 		6A637D37291442E500759CFD /* TestEventModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A637D36291442E500759CFD /* TestEventModifiers.swift */; };
 		6A73480B2929F869001C1C5F /* EnvironmentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A73480A2929F869001C1C5F /* EnvironmentTest.swift */; };
+		6A73480E2929FBDE001C1C5F /* StateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A73480D2929FBDE001C1C5F /* StateTest.swift */; };
+		6A7348112929FDEB001C1C5F /* PropertyWrapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7348102929FDEB001C1C5F /* PropertyWrapperTest.swift */; };
 		6A7C03A0291F506300EFE5EB /* TestLayoutZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C039F291F506300EFE5EB /* TestLayoutZStacks.swift */; };
 		6A7C03A2291F540300EFE5EB /* TestMultiLayoutStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C03A1291F540300EFE5EB /* TestMultiLayoutStacks.swift */; };
 		6A7C03A4291F555800EFE5EB /* SafeAreaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C03A3291F555800EFE5EB /* SafeAreaTest.swift */; };
@@ -85,6 +87,8 @@
 		6A637D332914417E00759CFD /* TestSFSymbolsTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSFSymbolsTwo.swift; sourceTree = "<group>"; };
 		6A637D36291442E500759CFD /* TestEventModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEventModifiers.swift; sourceTree = "<group>"; };
 		6A73480A2929F869001C1C5F /* EnvironmentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentTest.swift; sourceTree = "<group>"; };
+		6A73480D2929FBDE001C1C5F /* StateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTest.swift; sourceTree = "<group>"; };
+		6A7348102929FDEB001C1C5F /* PropertyWrapperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperTest.swift; sourceTree = "<group>"; };
 		6A7C039F291F506300EFE5EB /* TestLayoutZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLayoutZStacks.swift; sourceTree = "<group>"; };
 		6A7C03A1291F540300EFE5EB /* TestMultiLayoutStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMultiLayoutStacks.swift; sourceTree = "<group>"; };
 		6A7C03A3291F555800EFE5EB /* SafeAreaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaTest.swift; sourceTree = "<group>"; };
@@ -227,6 +231,22 @@
 			path = EnvironmentTest;
 			sourceTree = "<group>";
 		};
+		6A73480C2929FB53001C1C5F /* StateTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A73480D2929FBDE001C1C5F /* StateTest.swift */,
+			);
+			path = StateTest;
+			sourceTree = "<group>";
+		};
+		6A73480F2929FDD7001C1C5F /* PropertyWrapperTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A7348102929FDEB001C1C5F /* PropertyWrapperTest.swift */,
+			);
+			path = PropertyWrapperTest;
+			sourceTree = "<group>";
+		};
 		6A7C03A5291F555E00EFE5EB /* SafeAreaTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +314,8 @@
 		6A8B290D291255B100520BDE /* CompleteSwiftUI_Udemy */ = {
 			isa = PBXGroup;
 			children = (
+				6A73480F2929FDD7001C1C5F /* PropertyWrapperTest */,
+				6A73480C2929FB53001C1C5F /* StateTest */,
 				6A7348092929F852001C1C5F /* EnvironmentTest */,
 				6A7CE7302929DCBD002C57E5 /* PreviewTest */,
 				6A7CE7292929D99A002C57E5 /* GenericViewTest */,
@@ -541,6 +563,8 @@
 				6A3F822629291EB6005F4433 /* GroupTestOne.swift in Sources */,
 				6A637D2F291439B500759CFD /* TestImageViewThree.swift in Sources */,
 				6AEAF7072913C86A00E0A9A2 /* TestModifierViewThree.swift in Sources */,
+				6A7348112929FDEB001C1C5F /* PropertyWrapperTest.swift in Sources */,
+				6A73480E2929FBDE001C1C5F /* StateTest.swift in Sources */,
 				6A3F822B292920F6005F4433 /* GridTestOne.swift in Sources */,
 				6A637D37291442E500759CFD /* TestEventModifiers.swift in Sources */,
 				6A637D2B291433AF00759CFD /* TestImageView.swift in Sources */,

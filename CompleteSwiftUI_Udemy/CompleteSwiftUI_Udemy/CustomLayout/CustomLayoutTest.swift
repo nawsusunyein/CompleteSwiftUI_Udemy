@@ -30,7 +30,7 @@ struct CustomLayoutTest: View {
                         .background(Color.pink)
                         .cornerRadius(8)
                 }
-            }
+            }.background(Color.blue)
         }.padding()
         .font(.title)
     }
