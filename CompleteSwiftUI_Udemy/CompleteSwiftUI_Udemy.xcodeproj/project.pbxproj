@@ -37,6 +37,8 @@
 		6A7CE72F2929DBB4002C57E5 /* ViewBuilderTestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7CE72E2929DBB4002C57E5 /* ViewBuilderTestOne.swift */; };
 		6A7CE7322929DCCE002C57E5 /* PreviewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7CE7312929DCCE002C57E5 /* PreviewTest.swift */; };
 		6A7E80272930B556007302B7 /* BindingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E80262930B556007302B7 /* BindingTest.swift */; };
+		6A7E802A2930BA35007302B7 /* StateStructureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E80292930BA35007302B7 /* StateStructureTest.swift */; };
+		6A7E802C2930CD3D007302B7 /* StateStructureTestOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E802B2930CD3D007302B7 /* StateStructureTestOne.swift */; };
 		6A8B290F291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B290E291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift */; };
 		6A8B2911291255B100520BDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B2910291255B100520BDE /* ContentView.swift */; };
 		6A8B2913291255B400520BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8B2912291255B400520BDE /* Assets.xcassets */; };
@@ -101,6 +103,8 @@
 		6A7CE72E2929DBB4002C57E5 /* ViewBuilderTestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTestOne.swift; sourceTree = "<group>"; };
 		6A7CE7312929DCCE002C57E5 /* PreviewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTest.swift; sourceTree = "<group>"; };
 		6A7E80262930B556007302B7 /* BindingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTest.swift; sourceTree = "<group>"; };
+		6A7E80292930BA35007302B7 /* StateStructureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateStructureTest.swift; sourceTree = "<group>"; };
+		6A7E802B2930CD3D007302B7 /* StateStructureTestOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateStructureTestOne.swift; sourceTree = "<group>"; };
 		6A8B290B291255B100520BDE /* CompleteSwiftUI_Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompleteSwiftUI_Udemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8B290E291255B100520BDE /* CompleteSwiftUI_UdemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSwiftUI_UdemyApp.swift; sourceTree = "<group>"; };
 		6A8B2910291255B100520BDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -301,6 +305,15 @@
 			path = BindingTest;
 			sourceTree = "<group>";
 		};
+		6A7E80282930BA1D007302B7 /* StateStructureTest */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E80292930BA35007302B7 /* StateStructureTest.swift */,
+				6A7E802B2930CD3D007302B7 /* StateStructureTestOne.swift */,
+			);
+			path = StateStructureTest;
+			sourceTree = "<group>";
+		};
 		6A8B2902291255B100520BDE = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +337,7 @@
 		6A8B290D291255B100520BDE /* CompleteSwiftUI_Udemy */ = {
 			isa = PBXGroup;
 			children = (
+				6A7E80282930BA1D007302B7 /* StateStructureTest */,
 				6A7E80252930B545007302B7 /* BindingTest */,
 				6A73480F2929FDD7001C1C5F /* PropertyWrapperTest */,
 				6A73480C2929FB53001C1C5F /* StateTest */,
@@ -549,6 +563,7 @@
 			files = (
 				6A73480B2929F869001C1C5F /* EnvironmentTest.swift in Sources */,
 				6A637D3229143E3D00759CFD /* TestSFSymbols.swift in Sources */,
+				6A7E802C2930CD3D007302B7 /* StateStructureTestOne.swift in Sources */,
 				6A637D342914417E00759CFD /* TestSFSymbolsTwo.swift in Sources */,
 				6A3F823329292B6A005F4433 /* CustomLayoutTest.swift in Sources */,
 				6A7C03A0291F506300EFE5EB /* TestLayoutZStacks.swift in Sources */,
@@ -576,6 +591,7 @@
 				6A637D2F291439B500759CFD /* TestImageViewThree.swift in Sources */,
 				6AEAF7072913C86A00E0A9A2 /* TestModifierViewThree.swift in Sources */,
 				6A7348112929FDEB001C1C5F /* PropertyWrapperTest.swift in Sources */,
+				6A7E802A2930BA35007302B7 /* StateStructureTest.swift in Sources */,
 				6A73480E2929FBDE001C1C5F /* StateTest.swift in Sources */,
 				6A3F822B292920F6005F4433 /* GridTestOne.swift in Sources */,
 				6A637D37291442E500759CFD /* TestEventModifiers.swift in Sources */,

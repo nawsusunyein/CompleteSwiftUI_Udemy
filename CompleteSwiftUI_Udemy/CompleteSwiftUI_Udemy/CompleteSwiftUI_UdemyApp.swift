@@ -36,7 +36,9 @@ struct CompleteSwiftUI_UdemyApp: App {
           //  ViewBuilderTest()
            // ViewBuilderTestOne()
            // StateTest()
-            BindingTest()
+          //  BindingTest()
+            //StateStructureTest()
+            StateStructureTestOne()
         }
     }
 }
