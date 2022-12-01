@@ -38,7 +38,13 @@ struct CompleteSwiftUI_UdemyApp: App {
            // StateTest()
           //  BindingTest()
             //StateStructureTest()
-            StateStructureTestOne()
+           // StateStructureTestOne()
+           // ButtonTest()
+           // ButtonTestOne()
+           // TextfieldTest()
+            //TextfieldTestOne()
+           // TextfieldTestTwo()
+            TextfieldTestThree()
         }
     }
 }
